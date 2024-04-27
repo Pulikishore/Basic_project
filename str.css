@@ -1,5 +1,5 @@
 body{
-    background: url("/Media/cat.jpg");
+    background: url("Media/cat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -9,18 +9,19 @@ body{
 }
 
 #mid{
-    background: url("/Media/cat.jpg");
+    background: url("Media/cat.jpg");
     border: 30px;
     width: 300px;
+    height: 500px;
     background-color: rgba(0, 20, 40, .6 );
     margin: 10px auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10% 0 10%;
     
 }
 #mid label{
     display: block;
-    padding: 3px;
+    padding: 1PX;
 }
 
 #mid h1{
